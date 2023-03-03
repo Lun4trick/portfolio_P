@@ -5,13 +5,15 @@ import PlatformsIcons from './ContactPlatformTypes';
 const ContactPlatforms: React.FC = () => (
       <div className="text-5xl flex justify-center gap-20 py-3 text-gray-300">
         {PlatformsIcons.map(platform => (
-          <NavLink
-          id={platform.id}
-          className="hover:animate-bounce"
-          to={platform.Path}
-         >
-           {platform.icon}
-         </NavLink>
+          <label htmlFor={platform.id} className="group">
+            <div id={platform.id} className="group-hover:animate-bounce">
+            <NavLink
+              to={platform.Path}
+            >
+              {platform.icon}
+            </NavLink>
+            </div>
+          </label>
         ))}
       </div>
 );
