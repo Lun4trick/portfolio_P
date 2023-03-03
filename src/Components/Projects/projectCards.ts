@@ -19,9 +19,9 @@ const projectCards: Card[] = [
   { 
     title: 'ReduxProject',
     type: 'Used Redux',
-    description: 'This one is focusing on Redux\n' + 
-    'you can write/read comments to posts.\n' + 
-    'the posts are loaded from API, and the comments too\n',
+    description: 'This one is focusing on Redux.\n' + 
+    'it can be a common Todo list for any company.\n' + 
+    'The users, and the Todo-s are loaded from a common API.\n',
     url: 'https://lun4trick.github.io/react_redux-list-of-todos/'
   },
   { 
