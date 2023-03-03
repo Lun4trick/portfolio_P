@@ -12,8 +12,8 @@ const NavBar: React.FC = () => (
             to={item.path}
             className="bg-gradient-to-r from-slate-500 to-slate-800 laptop:text-lg mobile:text-sm text-gray-300 px-4 py-2 rounded-md
           hover:rounded-xl transition-all duration-500"
-        >
-          {item.name}
+          >
+            {item.name}
           </NavLink>
         </li>
       ))}
