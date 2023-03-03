@@ -18,8 +18,8 @@ const Introduction: React.FC = () => (
     <div className="mx-auto flex justify-center gap-10 mobile:flex-col tablet:flex-row">
       <img 
         className="rounded-full max-w-lg tablet:w-2/5 laptop:h-full tablet:h-3/5 mobile:h-full mobile:w-1/2 mobile:mx-auto tablet:mx-0" 
-        src='/utils/imgs/me.jpg' 
-        alt="" 
+        src='./utils/imgs/me.jpg' 
+        alt="It should be me..." 
       />
       <p className="laptop:text-2xl tablet:text-xl mobile:text-sm  text-slate-300 font-mono max-w-lg flex items-center shadow-lg p-10">
         I was a sponsored online poker player for 7 years,
