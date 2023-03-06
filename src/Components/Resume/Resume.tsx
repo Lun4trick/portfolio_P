@@ -66,6 +66,10 @@ const Resume: React.FC = () => (
         Ready to work remotely
         </p>
       </div>
+      <p className='flex justify-center text-center border-y-2 p-5 my-5 text-md'>
+        Front-end developer with experience in web design and user interface. Proven ability to create visually appealing and user-friendly websites using React. Experience as a professional online poker player, with a history of successful collaboration in a team environment. Strong problem-solving skills and the ability to think strategically. Familiarity with front-end technologies such as HTML, CSS, JavaScript, and React. Adept at adapting to new technologies and learning new skills quickly. Additionally, the experience as a professional online poker player brings a strong ability to work in a team, multitask, and adapt to changing situations.
+
+      </p>
       <div className="mb-4">
         <h2 className="text-lg font-bold text-gray-700 mb-2">SKILLS</h2>
         <ul className="list-disc list-inside mb-2">
